@@ -52,7 +52,7 @@
 
             bindings = <
 &kp TAB    &kp EXCL  &kp DE_DOUBLE_QUOTES  &kp DE_SECTION   &kp DLLR  &kp DE_PERCENT  &kp DE_AMPERSAND  &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS &kp DE_RIGHTPARENTHESIS  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans                &trans           &trans    &trans          &kp MINUS         &kp EQUAL     &kp LBKT                kp RBKT                  &kp BSLH  &kp GRAVE
+&kp LCTRL  &trans    &trans                &trans           &trans    &trans          &kp MINUS         &kp EQUAL     &kp LBKT                &kp RBKT                 &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans                &trans           &trans    &trans          &kp UNDER         &kp PLUS      &kp LBRC                &kp RBRC                 &kp PIPE  &kp TILDE
                                            &kp LGUI         &trans    &kp SPACE       &kp RET           &trans        &kp RALT
             >;
