@@ -23,6 +23,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        lshift_homerow {
+            bindings = <&kp LSHIFT>;
+            key-positions = <14 15>;
+        };
+
+        rshift_homerow {
+            bindings = <&kp RSHIFT>;
+            key-positions = <20 21>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
