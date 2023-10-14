@@ -47,6 +47,8 @@
 &mt LSHIFT ESC  &mt LCTRL Z  &mt LALT DE_X  &mt LGUI DE_C  &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT ESC
                                             &kp LGUI       &lt 1 ESC  &kp RET    &kp SPACE  &lt 2 TAB  &kp RALT
             >;
+
+            label = "Default";
         };
 
         lower_layer {
@@ -62,6 +64,8 @@
 &kp LSHFT  &trans  &trans  &trans    &trans  &trans        &trans         &trans    &trans    &trans     &trans  &trans
                            &kp LGUI  &trans  &kp DELETE    &kp BACKSPACE  &trans    &kp RALT
             >;
+
+            label = "Lower";
         };
 
         raise_layer {
@@ -77,6 +81,8 @@
 &kp LSHFT  &trans               &trans                &trans             &trans              &trans            &kp UNDER         &kp PLUS      &kp LBRC                 &kp RBRC                  &kp PIPE  &kp TILDE
                                                       &kp LGUI           &trans              &kp SPACE         &kp RET           &trans        &kp RALT
             >;
+
+            label = "Raise";
         };
 
         tri {
