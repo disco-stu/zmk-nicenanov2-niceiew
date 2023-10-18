@@ -60,7 +60,7 @@
 
             bindings = <
 &kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5        &kp N6         &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &trans        &kp LEFT       &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
+&trans     &trans  &trans  &trans    &trans  &kp DE_SQT    &kp LEFT       &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
 &kp LSHFT  &trans  &trans  &trans    &trans  &trans        &trans         &trans    &trans    &trans     &trans  &trans
                            &kp LGUI  &trans  &kp DELETE    &kp BACKSPACE  &trans    &kp RALT
             >;
@@ -77,7 +77,7 @@
 
             bindings = <
 &kp TAB    &kp EXCL             &kp DE_DOUBLE_QUOTES  &kp DE_SECTION     &kp DLLR            &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LEFT_BRACE  &kp DE_RIGHT_BRACE  &trans            &kp MINUS         &mt RSHIFT DE_ACUTE  &kp LBKT                 &kp RBKT                  &kp BSLH  &kp GRAVE
+&kp LCTRL  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LEFT_BRACE  &kp DE_RIGHT_BRACE  &kp DE_SQT        &kp MINUS         &mt RSHIFT DE_ACUTE  &kp LBKT                 &kp RBKT                  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans               &trans                &kp PAGE_UP        &kp PAGE_DOWN       &trans            &kp UNDER         &kp PLUS             &kp LBRC                 &kp RBRC                  &kp PIPE  &kp TILDE
                                                       &kp LGUI           &trans              &kp SPACE         &kp RET           &trans               &kp RALT
             >;
