@@ -42,10 +42,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q            &kp W          &kp E          &kp R            &kp T      &kp Y      &kp U        &kp I      &kp O    &kp P                   &kp BSPC
-&kp LCTRL       &mt LSHIFT DE_A  &kp S          &kp D          &mt LSHIFT DE_F  &kp G      &kp DE_H   &mt RSHFT J  &kp K      &kp L    &mt RSHIFT DE_O_UMLAUT  &kp SQT
-&mt LSHIFT ESC  &mt LCTRL Z      &mt LALT DE_X  &mt LGUI DE_C  &kp V            &kp B      &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH                &mt RSHIFT ESC
-                                                &kp LGUI       &lt 1 ESC        &kp RET    &kp SPACE  &lt 2 TAB    &kp RALT
+&kp TAB         &kp Q            &kp W          &kp E          &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O    &kp P                   &kp BSPC
+&kp LCTRL       &mt LSHIFT DE_A  &kp S          &kp D          &kp DE_F   &kp G      &kp DE_H   &kp DE_J   &kp K      &kp L    &mt RSHIFT DE_O_UMLAUT  &kp SQT
+&mt LSHIFT ESC  &mt LCTRL Z      &mt LALT DE_X  &mt LGUI DE_C  &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH                &mt RSHIFT ESC
+                                                &kp LGUI       &lt 1 ESC  &kp RET    &kp SPACE  &lt 2 TAB  &kp RALT
             >;
 
             label = "Default";
