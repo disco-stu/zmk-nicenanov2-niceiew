@@ -79,7 +79,7 @@
             bindings = <
 &kp TAB    &kp EXCL             &kp DE_DOUBLE_QUOTES  &kp DE_SECTION     &kp DLLR            &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp RPAR  &kp BSPC
 &kp LCTRL  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_LEFT_BRACE  &kp DE_RIGHT_BRACE  &kp DE_SQT        &kp MINUS         &mt RSHIFT DE_ACUTE  &kp LBKT                 &kp RBKT                  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans               &trans                &kp PAGE_UP        &kp PAGE_DOWN       &trans            &kp UNDER         &kp PLUS             &kp LBRC                 &kp RBRC                  &kp PIPE  &kp TILDE
+&kp LSHFT  &trans               &trans                &kp PAGE_UP        &kp PAGE_DOWN       &kp DE_HASH       &kp UNDER         &kp PLUS             &kp LBRC                 &kp RBRC                  &kp PIPE  &kp TILDE
                                                       &kp LGUI           &trans              &kp SPACE         &kp RET           &trans               &kp RALT
             >;
 
