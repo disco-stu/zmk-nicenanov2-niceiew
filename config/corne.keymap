@@ -55,10 +55,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5        &kp N6         &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &kp DE_SQT    &kp LEFT       &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans        &trans         &trans    &trans    &trans     &trans  &trans
-                           &kp LGUI  &trans  &kp DELETE    &kp BACKSPACE  &trans    &kp RALT
+&kp TAB    &kp N1         &kp N2         &kp N3         &kp N4         &kp N5        &kp N6         &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
+&trans     &kp LA(DE_N1)  &kp LA(DE_N2)  &kp LA(DE_N3)  &kp LA(DE_N4)  &kp DE_SQT    &kp LEFT       &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
+&kp LSHFT  &trans         &trans         &trans         &trans         &trans        &trans         &trans    &trans    &trans     &trans  &trans
+                                         &kp LGUI       &trans         &kp DELETE    &kp BACKSPACE  &trans    &kp RALT
             >;
 
             label = "Lower";
